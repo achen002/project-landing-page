@@ -1,0 +1,33 @@
+.header{
+    display:flex;
+    flex-direction: column;
+}
+
+.top-header,
+.header-content {
+    flex: 1;
+}
+
+.top-header {
+    display: flex;
+    flex-direction: row;
+}
+
+.top-header-child {
+    flex: 1;
+}
+
+.header-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-contnet {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-content-details,
+.header-content-image {
+    flex: 1;
+}
