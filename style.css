@@ -22,12 +22,53 @@
     flex-direction: row;
 }
 
-.header-contnet {
+.header-content {
     display: flex;
     flex-direction: row;
 }
 
-.header-content-details,
-.header-content-image {
+.header-content .details,
+.header-content .image {
     flex: 1;
+}
+
+.header-content .details {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-content-details .children {
+    flex: 1;
+}
+
+
+
+
+.random-info {
+    display : flex;
+    flex-direction: column;
+}
+
+.random-info-title,
+.illustration-container {
+    flex: 1;
+    
+}
+
+.illustration-container {
+    display: flex;
+}
+
+.sub-illustration-container {
+    flex: 1;
+}
+
+.border-box {
+    border : 2px solid  gray;
+   
+}
+
+.box{
+    width : 100px;
+    height: 100px;
 }
